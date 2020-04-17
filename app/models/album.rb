@@ -6,6 +6,6 @@ class Album < ApplicationRecord
 
   validates :title, presence: true
   validates :date, presence: true
-
+  
   has_one_attached :cover
 end
